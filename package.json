@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-ceejbot",
+  "description": "Maximized block-structure readability with a modern approach to whitespace.",
+  "version": "1.0.0",
+  "author": "C J Silverio",
+  "bugs": {
+    "url": "https://github.com/ceejbot/eslint-config-ceejbot/issues"
+  },
+  "homepage": "https://github.com/ceejbot/eslint-config-ceejbot#readme",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ceejbot/eslint-config-ceejbot.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
