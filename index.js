@@ -2,7 +2,6 @@ module.exports = {
 	'env': {
 		'browser': false,
 		'node': true,
-		'esnext': true,
 	},
 
 	'globals': {
