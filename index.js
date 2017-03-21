@@ -182,5 +182,9 @@ module.exports = {
 		'babel/object-curly-spacing': 0,
 		'xo/catch-error-name': 0,
 		'xo/no-process-exit': 0,
+		'no-multi-assign': 0,
+		'unicorn/number-literal-case': 0,
+		'capitalized-comments': 0,
+		'unicorn/no-new-buffer': 0,
 	}
 };
