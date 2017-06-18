@@ -1,39 +1,45 @@
 module.exports = {
-	'env': {
-		'browser': false,
-		'node': true,
+	parserOptions: {
+		ecmaVersion: 8
 	},
 
-	'globals': {
-		'crypto': true,
-		'escape': false,
-		'unescape': false
+	env: {
+		browser: false,
+		node: true,
+		mocha: true
 	},
 
-	'ecmaFeatures': {
-		'arrowFunctions': true,
-		'binaryLiterals': true,
-		'blockBindings': true,
-		'defaultParams': true,
-		'forOf': true,
-		'generators': true,
-		'objectLiteralComputedProperties': true,
-		'objectLiteralDuplicateProperties': false,
-		'objectLiteralShorthandMethods': true,
-		'objectLiteralShorthandProperties': true,
-		'octalLiterals': false,
-		'regexUFlag': true,
-		'regexYFlag': true,
-		'superInFunctions': true,
-		'templateStrings': true,
-		'unicodeCodePointEscapes': true,
-		'globalReturn': true
+	globals: {
+		crypto: false,
+		escape: false,
+		unescape: false
 	},
 
-	'rules': {
+	ecmaFeatures: {
+		arrowFunctions: true,
+		binaryLiterals: true,
+		blockBindings: true,
+		defaultParams: true,
+		forOf: true,
+		generators: true,
+		async: true,
+		objectLiteralComputedProperties: true,
+		objectLiteralDuplicateProperties: false,
+		objectLiteralShorthandMethods: true,
+		objectLiteralShorthandProperties: true,
+		octalLiterals: false,
+		regexUFlag: true,
+		regexYFlag: true,
+		superInFunctions: true,
+		templateStrings: true,
+		unicodeCodePointEscapes: true,
+		globalReturn: true
+	},
+
+	rules: {
 		'block-scoped-var': 0,
-		'brace-style': [2, 'allman', { 'allowSingleLine': true }],
-		'camelcase': 0,
+		'brace-style': [2, 'allman', { allowSingleLine: true }],
+		camelcase: 0,
 		'comma-dangle': 0,
 		'comma-spacing': [2, {'before': false, 'after': true}],
 		'comma-style': [2, 'last'],
