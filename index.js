@@ -192,5 +192,7 @@ module.exports = {
 		'unicorn/number-literal-case': 0,
 		'capitalized-comments': 0,
 		'unicorn/no-new-buffer': 0,
+		'unicorn/import-index': 0,
+		'semi-style': 0
 	}
 };
